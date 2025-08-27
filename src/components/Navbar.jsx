@@ -275,24 +275,24 @@ const Navbar = () => {
               >
                 Pools
               </Link>
-              <a
-                href="/exchanges"
+              <Link
+                to="/exchanges"
                 className="font-medium hover:opacity-80 transition-opacity"
                 style={{
                   color: "var(--text-primary)",
                 }}
               >
                 Exchanges
-              </a>
-              <a
-                href="/nfts"
+              </Link>
+              <Link
+                to="/nfts"
                 className="font-medium hover:opacity-80 transition-opacity"
                 style={{
                   color: "var(--text-primary)",
                 }}
               >
                 NFT
-              </a>
+              </Link>
               <a
                 href="#"
                 className="font-medium hover:opacity-80 transition-opacity"
@@ -524,18 +524,18 @@ const Navbar = () => {
                 >
                   Pools
                 </Link>
-                <a
-                  href="/exchanges"
+                <Link
+                  to="/exchanges"
                   className="block px-3 py-2 text-light-text hover:text-light-accent hover:bg-light-background rounded-md dark:text-white dark:hover:bg-gray-700"
                 >
                   Exchanges
-                </a>
-                <a
-                  href="/nfts"
+                </Link>
+                <Link
+                  to="/nfts"
                   className="block px-3 py-2 text-light-text hover:text-light-accent hover:bg-light-background rounded-md dark:text-white dark:hover:bg-gray-700"
                 >
                   NFT
-                </a>
+                </Link>
                 <a
                   href="#"
                   className="block px-3 py-2 text-light-text hover:text-light-accent hover:bg-light-background rounded-md dark:text-white dark:hover:bg-gray-700"

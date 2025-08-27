@@ -10,7 +10,7 @@ import store from "./store/store";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ThemeProvider>
           <ToastProvider>
             <PortfolioProvider>
